@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url('https://drive.google.com/file/d/1JLOcV2p_SbWFOV8M66E31jzbUeNptOeu/view?usp=drive_link'); /* Pfad zu deinem Bild */
+    background-size: cover; /* Bild deckt den gesamten Hintergrund ab */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+    background-position: center center; /* Zentriert das Bild */
 }
 
 header {
@@ -51,15 +55,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    background-image: url('https://drive.google.com/file/d/1JLOcV2p_SbWFOV8M66E31jzbUeNptOeu/view?usp=drive_link'); /* Pfad zu deinem Bild */
-    background-size: cover; /* Bild deckt den gesamten Hintergrund ab */
-    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
-    background-position: center center; /* Zentriert das Bild */
 }
