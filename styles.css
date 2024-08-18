@@ -1,146 +1,54 @@
-/* Grundlegende Stile */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: url('https://drive.google.com/uc?id=1JLOcV2p_SbWFOV8M66E31jzbUeNptOeu') no-repeat center center/cover; /* Hintergrundbild für die gesamte Website */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Header */
 header {
-    background: rgba(51, 51, 51, 0.8); /* Hintergrundfarbe mit Transparenz für besseren Textkontrast */
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-nav .logo img {
-    width: 150px; /* Größe des Logos */
-    height: auto;
+header h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    margin-top: 10px;
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 20px;
+    display: inline;
+    margin-right: 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
 }
 
-/* Hero-Bereich */
-.hero {
-    background: url('https://drive.google.com/uc?id=1QepkpGT3sIboRxLbFw2KWkDMde-3CDZj') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-}
-
-.cta-button {
-    background: #e8491d;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Stage 1 */
-.stage-1 {
-    background: url('https://drive.google.com/uc?id=1QepkpGT3sIboRxLbFw2KWkDMde-3CDZj') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.stage-1 h2 {
-    font-size: 2rem;
-}
-
-.stage-1 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-/* Stage 2 */
-.stage-2 {
-    background: url('https://drive.google.com/uc?id=1c4i8Se7hhXRKlH74whug9_9kqqIaR6ap') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.stage-2 h2 {
-    font-size: 2rem;
-}
-
-.stage-2 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-/* Stage 3 */
-.stage-3 {
-    background: url('https://drive.google.com/uc?id=11fLqfVmaRizu_JW9ax-Q6bvdyYlaKcA7') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.stage-3 h2 {
-    font-size: 2rem;
-}
-
-.stage-3 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-/* Weitere Sektionen */
 section {
     padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+h2 {
+    color: #333;
 }
 
-/* Bilder in Sektionen */
-.section-image {
-    width: 100%;
-    height: auto;
-}
-
-/* Footer */
 footer {
-    background: #333;
-    color: #fff;
     text-align: center;
     padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
