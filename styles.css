@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: url('https://drive.google.com/uc?id=1JLOcV2p_SbWFOV8M66E31jzbUeNptOeu') no-repeat center center/cover; /* Hintergrundbild für die gesamte Website */
+    background: url('DEIN_HINTERGRUNDBILD_URL') no-repeat center center/cover; /* Hintergrundbild für die gesamte Website */
 }
 
 /* Header */
@@ -49,7 +49,7 @@ nav ul li a {
 
 /* Hero-Bereich */
 .hero {
-    background: url('https://drive.google.com/uc?id=1QepkpGT3sIboRxLbFw2KWkDMde-3CDZj') no-repeat center center/cover;
+    background: url('DEIN_HERO_BILD_URL') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -69,7 +69,7 @@ nav ul li a {
 
 /* Stage 1 */
 .stage-1 {
-    background: url('https://drive.google.com/uc?id=1c4i8Se7hhXRKlH74whug9_9kqqIaR6ap') no-repeat center center/cover;
+    background: url('DEIN_STAGE1_BILD_URL') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 60px 20px;
@@ -87,7 +87,7 @@ nav ul li a {
 
 /* Stage 2 */
 .stage-2 {
-    background: url('https://drive.google.com/uc?id=11fLqfVmaRizu_JW9ax-Q6bvdyYlaKcA7') no-repeat center center/cover;
+    background: url('DEIN_STAGE2_BILD_URL') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 60px 20px;
@@ -105,7 +105,7 @@ nav ul li a {
 
 /* Stage 3 */
 .stage-3 {
-    background: url('https://drive.google.com/uc?id=1QepkpGT3sIboRxLbFw2KWkDMde-3CDZj') no-repeat center center/cover; /* Beispiel-URL; bitte anpassen, falls anders */
+    background: url('DEIN_STAGE3_BILD_URL') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 60px 20px;
